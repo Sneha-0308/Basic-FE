@@ -1,0 +1,18 @@
+li{
+    background-color: #A3D1B3;
+    color: blue;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 16pt;
+    line-height: 2em;
+
+}
+h3{
+    color: rgb(11, 11, 98);
+}
+aside{
+    float: left;
+}
