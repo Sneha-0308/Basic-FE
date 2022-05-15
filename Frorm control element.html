@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Form control element</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <form method="get" action="test.php">
+            <fieldset>
+                <legend style="color: rgb(184, 11, 184);">Text input controls</legend>
+                <p>
+                    <label>Title</label>
+                    <input type="text"/>
+                </p>
+                <p>
+                    <label>Enter some text</label>
+                    <textarea>
+                    type here
+                    </textarea>
+                </p>
+                <p>
+                    <label>Enter some text</label>
+                    <textarea palceholder="type here"></textarea>
+                </p>
+                <p>
+                    <label>password</label>
+                    <input type="password"/>
+                </p>
+                <p>
+                    <label>search</label>
+                    <input type="search" placeholder="enter the search text"/>
+                </p>
+                <p>
+                    <label>email</label>
+                    <input type="email" placeholder="Enter valid email"/>
+                </p>
+                <p>
+                    <label>LinkedIn profile</label>
+                    <input type="url" placeholder="Enter your linkedIn url"/>
+                </p>
+                <p>
+                    <label>Mobile number</label>
+                    <input type="tel" placeholder="Enter valid number"/>
+                </p>
+            </fieldset>
+        </form>
+        <form method="get" action="test.php">
+            <fieldset>
+                <legend style="color: rgb(184, 11, 184);">Choice control</legend>
+                <p>
+                    <label>search city</label>
+                    <input type="text" placeholder="selct any one" list="cities"/>
+                    <datalist id="cities">
+                        <option>Calcutta</option>
+                        <option>Calagry</option>
+                        <option>London</option>
+                        <option>Los Angeles</option>
+                        <option>Paris</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label>continent</label><br/>
+                    <input type="radio" name="where" value="1">North America<br/>
+                    <input type="radio" name="where" value="2" checked>South America<br/>
+                </p>
+                <p>
+                    <label>I accept the sotware license</label>
+                    <input type="checkbox" name="accept"/>
+                </p>
+            </fieldset>
+        </form>
+        <form method="get" action="test.php">
+            <fieldset>
+                <legend style="color: rgb(184, 11, 184);">Button control</legend>
+                <p>
+                    <label>submit button</label>
+                    <input type="submit"/>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
