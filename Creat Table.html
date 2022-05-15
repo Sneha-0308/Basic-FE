@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Names table</title>
+        <meta charset="UTF-8"/>
+        <style>
+            caption{
+                font-size: 25px;
+                background-color: rgb(42, 165, 104);
+                font-style: italic;
+                border-top: 3px solid black;
+            }
+            table{
+                border: solid 1pt black;
+                border-collapse: collapse;
+            }
+            td{
+                border: solid 1pt black;
+                padding: 10pt;
+            }
+            thead,tfoot{
+                background-color: cornflowerblue;
+            }
+            tbody{
+                background-color: burlywood;
+                border-bottom: 1px solid black;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Name data</caption>
+            
+            <thead><tr>
+                <th>Mother</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th colspan="2">City and state</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="4">number of persons</td>
+                    <td>2</td>
+                </tr>
+            </tfoot>
+            <tbody>
+            <tr>
+                <td rowspan="4">Savita</td>
+                <td>Sneha</td>
+                <td>Mathadawar</td>
+                <td>Hubli</td>
+                <td>Karnataka</td>
+            </tr>
+            <tr>
+                <td>Mahananda</td>
+                <td>Mathadawar</td>
+                <td>Pune</td>
+                <td>Maharastra</td>
+            </tr>
+        </tbody>
+        </table>
+    </body>
+</html>
